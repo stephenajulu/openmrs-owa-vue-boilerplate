@@ -4,10 +4,10 @@
   "description": "PHR App",
   "launch_path": "index.html",
   "icons": {
-    "48": "/img/omrs-button.png"
+    "48": "omrs-button.png"
   },
   "developer": {
-    "name": "Your Name",
+    "name": "Bell Eapen",
     "url": "https://nuchange.ca"
   },
   "default_locale": "en",
