@@ -1,7 +1,7 @@
 import crudService from './crudService';
 
 export default class contextService extends crudService {
-  getManifest() {
+  static getManifest() {
     return this.getResources('manifest.webapp');
   }
 }
