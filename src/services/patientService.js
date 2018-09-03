@@ -1,7 +1,9 @@
 // Step 1
 import Vapi from 'vuex-rest-api';
+import Vue from 'vue';
 import Vuex from 'vuex';
 // import ContextService from './contextService';
+Vue.use(Vuex);
 
 // Step 2
 const patients = new Vapi({
@@ -47,5 +49,5 @@ const patients = new Vapi({
   .getStore();
 
 // Step 5
-const patient = new Vuex.Store(patients);
-export default patient;
+const Patient = new Vuex.Store(patients);
+export default Patient;
