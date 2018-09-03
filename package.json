@@ -5,13 +5,15 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "deploy": "./deploy.sh",
+    "deploy": "vue-cli-service build && ./deploy.sh",
     "lint": "vue-cli-service lint",
     "test:unit": "vue-cli-service test:unit"
   },
   "dependencies": {
     "vue": "^2.5.17",
     "vue-router": "^3.0.1",
+    "axios": "^0.18.0",
+    "vuex-rest-api": "^2.9.0",
     "vuex": "^3.0.1"
   },
   "devDependencies": {
