@@ -13,6 +13,7 @@ const patients = new Vapi({
     'Content-Type': 'application/json',
   },
   state: {
+    patient: '',
     patients: [],
   },
 })

@@ -51,8 +51,7 @@ export default {
     };
   },
   created() {
-    const params = { q: 'Mic' };
-    Patient.dispatch('queryPatients', { params });
+
   },
   computed: {
     error() {
