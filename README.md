@@ -1,6 +1,19 @@
 # openmrs-owa-vue-boilerplate
+<img src="https://cloud.githubusercontent.com/assets/668093/12567089/0ac42774-c372-11e5-97eb-00baf0fccc37.jpg" alt="OpenMRS"/>
 
-## Work in progress
+## About
+* This is a boilerplate for creating Vue Open Web Apps in OpenMRS. My react-redux boilerplate project
+is [here](https://github.com/dermatologist/openmrs-owa-react-boilerplate)
+
+* Created using vue cli 3
+
+## How to Use
+* Update public/manifest.webapp
+* rename deploy-example.sh and add openmrs server details. (you can use scp here)
+* See services/patientServices.js to see how to access openmrs resources. Use *baseURL: ContextService.getManifest().openmrs.href* if required.
+* See components/HelloPatient.vue to see how it all fits together.
+* see vue.config.js for additional configurations if required.
+* 
 
 ## Project setup
 ```
@@ -15,6 +28,11 @@ yarn run serve
 ### Compiles and minifies for production
 ```
 yarn run build
+```
+
+## Deploy to Openmrs Server
+```
+yarn run deploy
 ```
 
 ### Lints and fixes files
