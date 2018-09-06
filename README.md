@@ -8,11 +8,11 @@ is [here](https://github.com/dermatologist/openmrs-owa-react-boilerplate)
 * Created using vue cli 3
 
 ## How to Use
-* Update public/manifest.webapp
-* rename deploy-example.sh and add openmrs server details. (you can use scp here)
-* See src/services/patientServices.js to see how to access openmrs resources. Use *baseURL: ContextService.getManifest().openmrs.href* if required. This copies the dist folder over to the owa folder on server except the manifest.webapp file. Hence, deploy it the conventional way for the first time as zip file so that manifest.webapp can be updated by openmrs or manually create the manifest.webapp file. 
-* See src/components/HelloPatient.vue to see how it all fits together.
-* see vue.config.js for additional configurations if required.
+* Update *public/manifest.webapp*
+* rename *deploy-example.sh* to *deploy.sh* and add openmrs server details. You can use scp here to deploy on server.  This copies the dist folder over to the owa folder on server except the manifest.webapp file. Hence, deploy it the conventional way for the first time as zip file so that manifest.webapp can be updated by openmrs or manually create the manifest.webapp file. 
+* See *src/services/patientServices.js* to see how to access openmrs resources. Use *baseURL: ContextService.getManifest().openmrs.href* if required.
+* See *src/components/HelloPatient.vue* to see how it all fits together.
+* see *vue.config.js* for additional configurations if required.
 
 ## Project setup
 ```
