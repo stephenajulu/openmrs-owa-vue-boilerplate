@@ -98,10 +98,10 @@ export default {
       this.isOpen = false;
     },
 
-    onArrowDown(evt) {
+    onArrowDown() {
       if (this.arrowCounter < this.results.length) {
         this.arrowCounter = this.arrowCounter + 1;
-        console.log(evt);
+        //console.log(evt);
       }
     },
     onArrowUp() {

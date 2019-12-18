@@ -1,6 +1,6 @@
 module.exports = {
     // options...
-    baseUrl: process.env.NODE_ENV === 'production' ? '/openmrs/owa/phr/' : '/',
+    publicPath: process.env.NODE_ENV === 'production' ? '/openmrs/owa/phr/' : '/',
 
     // Other options include:
     // outputDir: undefined,
